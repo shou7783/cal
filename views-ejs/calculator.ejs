@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="/stylesheets/style.css" rel="stylesheet" type="text/css">
+	<script src="/javascripts/cal.js"></script>
+</head>
+
+
+<body>
+	<div class="table">
+		<div class="header">
+			<h3 id="panel">0</h3>
+		</div>
+		<div class="row">
+			<div class="cell"><button onclick="clickACButton(this)">AC</button></div>
+			<div class="cell"><button onclick="clickPlusOrMinusButton()">+/-</button></div>
+			<div class="cell"><button>%</button></div>
+			<div class="cell"><button onclick="clickOperatorButton(this, operator.divide)">/</button></div>
+		</div>
+		<div class="row">
+			<div class="cell"><button onclick="clickValueButton(this)">7</button></div>
+			<div class="cell"><button onclick="clickValueButton(this)">8</button></div>
+			<div class="cell"><button onclick="clickValueButton(this)">9</button></div>
+			<div class="cell"><button onclick="clickOperatorButton(this, operator.multiply)">*</button></div>
+		</div>
+		<div class="row">
+			<div class="cell"><button onclick="clickValueButton(this)">4</button></div>
+			<div class="cell"><button onclick="clickValueButton(this)">5</button></div>
+			<div class="cell"><button onclick="clickValueButton(this)">6</button></div>
+			<div class="cell"><button onclick="clickOperatorButton(this, operator.minus)">-</button></div>
+		</div>
+		<div class="row">
+			<div class="cell"><button onclick="clickValueButton(this)">1</button></div>
+			<div class="cell"><button onclick="clickValueButton(this)">2</button></div>
+			<div class="cell"><button onclick="clickValueButton(this)">3</button></div>
+			<div class="cell"><button onclick="clickOperatorButton(this, operator.plus)">+</button></div>
+		</div>
+		<div class="row">
+			<div class="cell"><button onclick="clickValueButton(this)">0</button></div>
+			<div class="cell"><button onclick="clickValueButton(this)">.</button></div>
+			<div class="cell"><button onclick="clickEqualButton()">=</button></div>
+		</div>
+	</div>	
+</body>
+</html>
